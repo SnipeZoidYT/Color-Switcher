@@ -1,0 +1,57 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Arial', sans-serif;
+}
+
+.red{
+    background-color: rgb(240, 4, 4);
+    
+}
+.red:hover{
+    cursor: pointer;
+}
+
+.blue{
+    background-color: blue;
+}
+.blue:hover{
+    cursor: pointer;
+}
+
+.green{
+    background-color: green;
+}
+.green:hover{
+    cursor: pointer;
+}
+
+.random{
+    background-color: rgb(243, 240, 240);
+}
+.random:hover{
+    cursor: pointer;
+}
+.container {
+    outline: auto;
+    outline-style: groove;
+    outline-color: rgb(0, 0, 0);
+    background: #ececec;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.btn{
+    margin: 3px;
+    padding: 10px;
+    border-radius: 5px;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    position: center;
+}
